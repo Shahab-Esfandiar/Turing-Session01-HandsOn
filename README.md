@@ -11,7 +11,7 @@ This project is a sophisticated AI-powered application designed for high-perform
 ## 🏗️ System Architecture & Enhancements
 Compared to the initial basic version, this project has undergone a complete architectural overhaul to follow **Clean Code** and **SOLID** principles.
 
-### 1. Core Foundations (The "Under the Hood" Upgrades)
+### 1. Core Foundations
 * **Client Factory Pattern:** Implemented a `ClientFactory` to decouple the UI from LLM logic. This allows adding new providers (like Anthropic or Gemini) without touching the UI code.
 * **Custom Exception Hierarchy:** A specialized error handling system (`core/exceptions.py`) manages service failures, empty inputs, and template errors gracefully.
 * **Advanced Logging System:** * **Terminal Logs:** Provides real-time technical metadata (word counts, model names, performance metrics).
